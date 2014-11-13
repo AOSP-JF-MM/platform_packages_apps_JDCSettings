@@ -62,6 +62,12 @@
             android:title="@string/powermenu_settings_title"
             android:summary="@string/powermenu_settings_summary"/>
 
+        <PreferenceScreen
+            android:fragment="com.jdc.settings.fragments.ButtonSettings"
+            android:key="rebindings_settings"
+            android:title="@string/rebindings_settings_title"
+            android:summary="@string/rebindings_settings_summary"/>
+
     </PreferenceCategory>
 
     <!-- Volume Rocker -->
