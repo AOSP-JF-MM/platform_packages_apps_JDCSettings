@@ -46,6 +46,20 @@
     <string name="powermenu_settings_title">PowerMenu</string>
     <string name="powermenu_settings_summary">PowerMenu settings and customisations</string>
 
+    <!-- Power menu customization -->
+    <string name="power_menu_power_title">Power off</string>
+    <string name="power_menu_reboot_title">Restart</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_users_title">User switcher</string>
+    <string name="power_menu_search_title">Search</string>
+    <string name="power_menu_voice_title">Voice search</string>
+    <string name="power_menu_settings_title">Settings shortcut</string>
+    <string name="power_menu_lockdown_title">Device lockdown</string>
+    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_sound_title">Sound panel</string>
+    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+
     <!-- Button customisations fragment -->
     <string name="rebindings_settings_title">HW button customisations</string>
     <string name="rebindings_settings_summary">HW buttons settings and customisations</string>
