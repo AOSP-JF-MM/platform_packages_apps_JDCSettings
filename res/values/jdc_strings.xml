@@ -47,7 +47,6 @@
     <string name="powermenu_settings_summary">PowerMenu settings and customisations</string>
 
     <!-- Power menu customization -->
-    <string name="power_menu_power_title">Power off</string>
     <string name="power_menu_reboot_title">Restart</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenrecord_title">Screen record</string>
