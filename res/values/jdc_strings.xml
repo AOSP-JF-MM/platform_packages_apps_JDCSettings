@@ -34,4 +34,8 @@
     <!-- Volume Rocker fragment -->
     <string name="volumerocker_settings_title">Volume rocker</string>
     <string name="volumerocker_settings_summary">Volume rocker custom settings</string>
+
+     <!-- Volume button track change -->
+    <string name="volbtn_music_controls_title">Music control</string>
+    <string name="volbtn_music_controls_summary">With screen off, long pressing the volume keys will seek tracks</string>
 </resources>

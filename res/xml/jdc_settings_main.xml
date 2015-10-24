@@ -55,7 +55,7 @@
     <PreferenceScreen
         android:key="volumerocker_settings"
         android:title="@string/volumerocker_settings_title"
-        android:title="@string/volumerocker_settings_summary"
+        android:summary="@string/volumerocker_settings_summary"
         android:fragment="com.jdc.settings.fragments.VolumeRockerSettings">
     </PreferenceScreen>
 

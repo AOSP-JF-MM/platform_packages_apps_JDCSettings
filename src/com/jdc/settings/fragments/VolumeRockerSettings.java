@@ -35,7 +35,7 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.PURE;
+        return MetricsEvent.JDC_SETTINGS;
     }
 }
 
