@@ -30,4 +30,8 @@
     <!-- JDCTeam Google+ Community shortcut -->
     <string name="community">JDCTeam on Google+</string>
     <string name="community_summary">Join our official community and keep yourself updated about the best software for your device</string>
+
+    <!-- Volume Rocker fragment -->
+    <string name="volumerocker_settings_title">Volume rocker</string>
+    <string name="volumerocker_settings_summary">Volume rocker custom settings</string>
 </resources>

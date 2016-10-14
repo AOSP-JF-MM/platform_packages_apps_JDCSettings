@@ -51,6 +51,14 @@
             android:targetClass="com.gokhanmoral.stweaks.app.MainActivity"/>
     </PreferenceScreen>
 
+    <!-- Volume Rocker -->
+    <PreferenceScreen
+        android:key="volumerocker_settings"
+        android:title="@string/volumerocker_settings_title"
+        android:title="@string/volumerocker_settings_summary"
+        android:fragment="com.jdc.settings.fragments.VolumeRockerSettings">
+    </PreferenceScreen>
+
      <!-- JDCTeam Google+ Community shortcut -->
     <Preference android:key="community"
         android:title="@string/community"
