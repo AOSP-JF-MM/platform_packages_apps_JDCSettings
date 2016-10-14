@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Categories -->
+    <string name="buttons">Buttons</string>
+
     <!-- STweaks -->
     <string name="stweaks_title">STweaks</string>
     <string name="stweaks_summary">Change Alucard kernel configuration</string>
@@ -38,4 +41,8 @@
      <!-- Volume button track change -->
     <string name="volbtn_music_controls_title">Music control</string>
     <string name="volbtn_music_controls_summary">With screen off, long pressing the volume keys will seek tracks</string>
+
+    <!-- Power Menu fragment -->
+    <string name="powermenu_settings_title">PowerMenu</string>
+    <string name="powermenu_settings_summary">PowerMenu Settings and Customisations</string>
 </resources>

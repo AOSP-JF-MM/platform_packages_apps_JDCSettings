@@ -51,6 +51,19 @@
             android:targetClass="com.gokhanmoral.stweaks.app.MainActivity"/>
     </PreferenceScreen>
 
+    <!-- Buttons -->
+    <PreferenceCategory
+        android:key="buttons_settings"
+        android:title="@string/buttons">
+
+        <PreferenceScreen
+            android:fragment="com.jdc.settings.fragments.PowerMenuSettings"
+            android:key="powermenu_settings"
+            android:title="@string/powermenu_settings_title"
+            android:summary="@string/powermenu_settings_summary"/>
+
+    </PreferenceCategory>
+
     <!-- Volume Rocker -->
     <PreferenceScreen
         android:key="volumerocker_settings"
