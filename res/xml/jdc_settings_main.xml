@@ -18,38 +18,45 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/custom_settings_title" >
 
-    <!-- Substratum -->
-    <PreferenceScreen
-        android:id="@+id/substratum"
-        android:title="@string/substratum_title"
-        android:summary="@string/substratum_summary">
-        <intent
-            android:action="android.intent.action.MAIN"
-            android:targetPackage="projekt.substratum"
-            android:targetClass="projekt.substratum.LaunchActivity" />
-    </PreferenceScreen>
+    <!-- Custom Apps -->
+    <PreferenceCategory
+        android:key="custom_apps"
+        android:title="@string/custom_apps">
 
-    <!-- SuperSU -->
-    <PreferenceScreen
-        android:id="@+id/supersu_settings"
-        android:title="@string/supersu_title"
-        android:summary="@string/supersu_summary">
-        <intent
-            android:action="android.intent.action.MAIN"
-            android:targetPackage="eu.chainfire.supersu"
-            android:targetClass="eu.chainfire.supersu.MainActivity" />
-    </PreferenceScreen>
+        <!-- Substratum -->
+        <PreferenceScreen
+            android:id="@+id/substratum"
+            android:title="@string/substratum_title"
+            android:summary="@string/substratum_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="projekt.substratum"
+                android:targetClass="projekt.substratum.LaunchActivity" />
+        </PreferenceScreen>
 
-    <!-- STweaks -->
-    <PreferenceScreen
-        android:id="@+id/stweaks_settings"
-        android:title="@string/stweaks_title"
-        android:summary="@string/stweaks_summary">
-        <intent
-            android:action="android.intent.action.MAIN"
-            android:targetPackage="com.gokhanmoral.stweaks.app"
-            android:targetClass="com.gokhanmoral.stweaks.app.MainActivity"/>
-    </PreferenceScreen>
+        <!-- SuperSU -->
+        <PreferenceScreen
+            android:id="@+id/supersu_settings"
+            android:title="@string/supersu_title"
+            android:summary="@string/supersu_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="eu.chainfire.supersu"
+                android:targetClass="eu.chainfire.supersu.MainActivity" />
+        </PreferenceScreen>
+
+        <!-- STweaks -->
+        <PreferenceScreen
+            android:id="@+id/stweaks_settings"
+            android:title="@string/stweaks_title"
+            android:summary="@string/stweaks_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.gokhanmoral.stweaks.app"
+                android:targetClass="com.gokhanmoral.stweaks.app.MainActivity"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
 
     <!-- Buttons -->
     <PreferenceCategory
@@ -68,22 +75,29 @@
             android:title="@string/rebindings_settings_title"
             android:summary="@string/rebindings_settings_summary"/>
 
+        <!-- Volume Rocker -->
+        <PreferenceScreen
+            android:key="volumerocker_settings"
+            android:title="@string/volumerocker_settings_title"
+            android:summary="@string/volumerocker_settings_summary"
+            android:fragment="com.jdc.settings.fragments.VolumeRockerSettings">
+        </PreferenceScreen>
+
     </PreferenceCategory>
 
-    <!-- Volume Rocker -->
-    <PreferenceScreen
-        android:key="volumerocker_settings"
-        android:title="@string/volumerocker_settings_title"
-        android:summary="@string/volumerocker_settings_summary"
-        android:fragment="com.jdc.settings.fragments.VolumeRockerSettings">
-    </PreferenceScreen>
+    <!--About Us -->
+    <PreferenceCategory
+        android:key="about_us"
+        android:title="@string/about_us">
 
-     <!-- JDCTeam Google+ Community shortcut -->
-    <Preference android:key="community"
-        android:title="@string/community"
-        android:summary="@string/community_summary" >
-        <intent android:action="android.intent.action.VIEW"
+        <!-- JDCTeam Google+ Community shortcut -->
+        <Preference android:key="community"
+            android:title="@string/community"
+            android:summary="@string/community_summary" >
+            <intent android:action="android.intent.action.VIEW"
                 android:data="https://plus.google.com/u/0/communities/117218177262334420007" />
-    </Preference>
+        </Preference>
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

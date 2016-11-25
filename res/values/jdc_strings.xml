@@ -16,7 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Categories -->
+    <string name="custom_apps">Rom Control</string>
     <string name="buttons">Buttons</string>
+    <string name="about_us">About Us</string>
 
     <!-- STweaks -->
     <string name="stweaks_title">STweaks</string>
