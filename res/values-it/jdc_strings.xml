@@ -15,21 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Categories -->
-    <string name="custom_apps">Controllo ROM</string>
     <string name="buttons">Tasti</string>
     <string name="about_us">Su di Noi</string>
-
-     <!-- STweaks -->
-    <string name="stweaks_title">STweaks</string>
-    <string name="stweaks_summary">Applicazione per la configurazione del kernel Alucard</string>
-
-    <!-- LayersManager -->
-    <string name="substratum_title">Substratum</string>
-    <string name="substratum_summary">Applicazione sviluppata dal TeamSubstratum per gestire l\'Overlay Manager Service</string>
-
-    <!-- SuperSU -->
-    <string name="supersu_title">SuperSU</string>
-    <string name="supersu_summary">Applicazione per i permessi di superutente creata da ChainFire</string>
 
     <!-- JDCTeam Google+ Community shortcut -->
     <string name="community">JDCTeam su Google+</string>
